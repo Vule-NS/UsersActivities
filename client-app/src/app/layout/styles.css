@@ -19,9 +19,39 @@ body
 
 .ui.inverted.top.fixed.menu
 {
-  background-image: linear-gradient(150deg, rgb(0, 183, 255) 0%, rgb(96, 240, 245) 68%, rgb(189, 238, 250) 89%) !important;
-  
-  
+  background-image: linear-gradient(150deg, rgb(0, 183, 255) 0%, rgb(96, 240, 245) 68%, rgb(189, 238, 250) 89%) !important;  
 }
+
+.react-calendar {
+  width: 100%;
+  border: none;
+  box-shadow: 0 1px 2px 0 rgb(34,36,38,.15);
+}
+
+/*home page styles*/
+
+.masthead {
+  display: flex;
+  align-items: center;
+  background-image: linear-gradient(150deg, rgb(0, 183, 255) 0%, rgb(96, 240, 245) 68%, rgb(189, 238, 250) 89%) !important;
+  height: 100vh;
+}
+
+.masthead .ui.menu .ui.button,
+.ui.menu a.ui.inverted.button {
+  margin-left: 0.5em;
+}
+
+.masthead h1.ui.header {
+  font-size: 4em;
+  font-weight: normal;
+}
+
+.masthead h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+/*end home page styles*/
 
 
