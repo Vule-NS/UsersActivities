@@ -6,11 +6,19 @@ import reportWebVitals from './reportWebVitals';
 import 'semantic-ui-css/semantic.min.css'
 import { BrowserRouter } from 'react-router-dom';
 import 'react-calendar/dist/Calendar.css'
+import 'react-toastify/dist/ReactToastify.min.css';
+import { Router } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
+import 'react-datepicker/dist/react-datepicker.css';
+
+export const history = createBrowserHistory();
 
 ReactDOM.render(
 
   <BrowserRouter>
-    <App />
+    <Router history={history}>
+      <App />
+    </Router>
   </BrowserRouter>,
 
   document.getElementById('root')
